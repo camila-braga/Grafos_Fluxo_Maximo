@@ -54,13 +54,6 @@ for linha in range(quantidade_vertices):
         print(f"{capacidade_residual[linha][coluna]:3}", end=" ")
     print()
 
-print("\n\033[35mArestas com capacidade residual > 0:\033[0m")
-for u in range(quantidade_vertices):
-    for v in range(quantidade_vertices):
-        if capacidade_residual[u][v] > 0:
-            print(f"{u} -> {v} (capacidade: {capacidade_residual[u][v]})")
-
-
 fonte = int(input("\n\033[34mDigite o vértice da fonte:\033[0m "))
 sumidouro = int(input("\n\033[34mDigite o vértice do sumidouro:\033[0m "))
 
