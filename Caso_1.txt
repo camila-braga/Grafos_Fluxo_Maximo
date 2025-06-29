@@ -1,0 +1,25 @@
+Caso 1
+
+Quantidade de vertices: 6
+Quantidade de arestas: 9
+Fonte: 0
+Sumidouro: 5
+
+Lista de Adjacencia com arestas reversas:
+  0: [(1, 100), (3, 50)]
+  1: [(0, 0), (3, 25), (2, 55)]
+  2: [(1, 0), (3, 0), (4, 25), (5, 65)]
+  3: [(0, 0), (1, 0), (2, 20), (4, 35)]
+  4: [(3, 0), (2, 0), (5, 50)]
+  5: [(2, 0), (4, 0)]
+
+Matriz de Capacidades Residuais:
+  0  35   0   5   0   0
+ 65   0   0  15   0   0
+  0  55   0  20  15   0
+ 45  10   0   0   0   0
+  0   0  10  35   0   5
+  0   0  65   0  45   0
+
+Fluxo maximo adicional da fonte 0 ao sumidouro 5: 40L
+Tempo de execucao: 0.00014170 segundos
