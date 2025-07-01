@@ -5,6 +5,15 @@ Quantidade de arestas: 14
 Fonte: 0
 Sumidouro: 6
 
+Lista de Adjacencia:
+  0: [(1, 45), (2, 35), (6, 40), (3, 50)]
+  1: [(4, 20), (6, 25)]
+  2: [(4, 25), (5, 25)]
+  3: [(2, 15), (5, 15), (6, 20)]
+  4: [(6, 15), (5, 30)]
+  5: [(6, 70)]
+  6: []
+
 Lista de Adjacencia com arestas reversas:
   0: [(1, 45), (2, 35), (6, 40), (3, 50)]
   1: [(0, 0), (4, 20), (6, 25)]
@@ -14,7 +23,16 @@ Lista de Adjacencia com arestas reversas:
   5: [(2, 0), (3, 0), (4, 0), (6, 70)]
   6: [(0, 0), (1, 0), (3, 0), (4, 0), (5, 0)]
 
-Matriz de Capacidades Residuais:
+Matriz de Capacidades Residuais inicial:
+  0  25  35  10   0   0  25
+ 20   0   0   0   5   0  20
+  0   0   0  15  20  15   0
+ 40   0   0   0   0  10   0
+  0  15   5   0   0  15  10
+  0   0  10   5  15   0  40
+ 15   5   0  20   5  30   0
+
+Matriz de Capacidades Residuais final:
   0   0   0   0   0   0   0
  45   0   0   0   0   0   0
  35   0   0  15   0   0   0
@@ -23,5 +41,7 @@ Matriz de Capacidades Residuais:
   0   0  25  15  30   0   0
  40  25   0  20  15  70   0
 
-Fluxo maximo adicional da fonte 0 ao sumidouro 6: 95L
-Tempo de execucao: 0.00010390 segundos
+Fluxo inicial: 75L
+Fluxo adicional da fonte 0 ao sumidouro 6 encontrado: 95L
+Fluxo maximo total (fluxo inicial + adicional): 75L + 95L = 170L
+Tempo de execucao: 0.00024400 segundos
