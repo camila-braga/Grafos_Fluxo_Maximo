@@ -44,4 +44,4 @@ Matriz de Capacidades Residuais final:
 Fluxo inicial: 75L
 Fluxo adicional da fonte 0 ao sumidouro 6 encontrado: 95L
 Fluxo maximo total (fluxo inicial + adicional): 75L + 95L = 170L
-Tempo de execucao: 0.00024400 segundos
+Tempo de execucao: 0.00020660 segundos

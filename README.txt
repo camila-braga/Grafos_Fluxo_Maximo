@@ -9,8 +9,11 @@ Uma vez instalada, acesse a pasta onde o arquivo está localizado:
 	Linux/macOS: 
 		cd /home/seu_usuario/seu diretório
 
-Para executar o algoritmo de Edmonds-Karp, digite:
-	python EdmondsKarp.py
+Para executar o menu, digite:
+	python Menu.py
 
-Para executar o algoritmo de Dinit, digite:
-	python NOME_ALGORITMO.py
+Quando o menu abrir, o programa exibirá os casos de teste que existem no banco de dados e pedirá 
+que o usuário escolha um deles ou "0" para encerrar o programa.
+
+Em seguida, o programa exibirá outro menu com os algoritmos para cálculo do fluxo máximo em redes 
+(Edmonds-Karp e Dinic) e pedirá que o usuário escolha um deles, ou "0" para voltar ao menu dos casos de teste.
