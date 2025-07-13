@@ -10,7 +10,7 @@ def main():
     while (condicao):
 
         print("\n\033[34mTemos os seguintes casos de teste:\033[0m")
-        for c in range (0, 20):
+        for c in range (0, 26):
             print(f"\n    Caso {c+1};")
 
         escolha = int (input("\n\033[34mEscolha o caso que deseja testar ou '0' para sair:\033[0m "))
