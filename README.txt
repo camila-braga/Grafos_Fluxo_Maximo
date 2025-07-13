@@ -14,6 +14,3 @@ Para executar o menu, digite:
 
 Quando o menu abrir, o programa exibirá os casos de teste que existem no banco de dados e pedirá 
 que o usuário escolha um deles ou "0" para encerrar o programa.
-
-Em seguida, o programa exibirá outro menu com os algoritmos para cálculo do fluxo máximo em redes 
-(Edmonds-Karp e Dinic) e pedirá que o usuário escolha um deles, ou "0" para voltar ao menu dos casos de teste.
